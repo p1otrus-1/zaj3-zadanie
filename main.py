@@ -110,6 +110,13 @@ class TenantSettlement(BaseModel):
     total_due_pln: float
     transfers_sum_pln: float
     balance_pln: float
+ 
+class ApartmentSettlement(BaseModel):
+    apartment_key: str
+    month: int
+    year: int
+    bills_sum_pln: float
+    rent_sum_pln: float
 
 if __name__ == '__main__':
     parameters = Parameters()
