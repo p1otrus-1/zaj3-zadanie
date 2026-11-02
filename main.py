@@ -107,9 +107,6 @@ class ApartmentSettlement(BaseModel):
     bills_sum_pln: float
     rent_sum_pln: float
 
-    
-
-
 if __name__ == '__main__':
     parameters = Parameters()
     manager = Manager(parameters)
